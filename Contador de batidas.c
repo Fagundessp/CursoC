@@ -11,7 +11,7 @@ float batidas, minutos, segundo, hora, anos;
 printf ("insira sua idade:\n");
 scanf("%f", &idade);
 
-batidas = segundo * minutos * horas * anos;
+batidas = segundo * minutos * horas * anos, idade;
 
 printf ("quantidade de batidas: %2.f\n", batidas);
 
